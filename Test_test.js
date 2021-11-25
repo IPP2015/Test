@@ -1,79 +1,70 @@
-//const { image } = require("faker");
-
 Feature('Create Account Cermati');
+Scenario('Create Account Sukses', ({ I }) => {
+    I.amOnPage('https://www.cermati.com/gabung-v2?')
+    I.fillField('email','panduputra.ilham@gmail.com')
+    I.fillField('password','Cermati123');
+    I.fillField('confirmPassword','Cermati123')
+    I.fillField('firstName','Ilham')
+    I.fillField('lastName','Putra')
+    I.fillField('mobilePhone','085777641438')
+    I.fillField('residenceCity','Jakarta Selatan')
+    I.click('.btn')
+    I.wait(2)
+});
 
-// Scenario('test something', ({ I }) => {
-//     I.amOnPage('https://google.com')
- 
-//     I.seeElement('.lnXdpd');
+Scenario('Check require Wajib Isi', ({ I }) => {
+    I.amOnPage('https://www.cermati.com/gabung-v2?')
+    I.click('.btn')
+    I.see('Input ini wajib diisi.')
+    I.wait(20)
   
-// });
-// Scenario('Create Account Sukses', ({ I }) => {
+});
+//
+// Scenario('Check require Email', ({ I }) => {
 //     I.amOnPage('https://www.cermati.com/gabung-v2?')
-//     I.fillField('email','panduputra.ilham@gmail.com')
-//     I.fillField('password','Cermati123');
-//     I.fillField('confirmPassword','Cermati123')
-//     I.fillField('firstName','Ilham')
-//     I.fillField('lastName','Putra')
-//     I.fillField('mobilePhone','085777641438')
-//     I.fillField('residenceCity','Jakarta Selatan')
-//     I.click('.btn')
-//     I.wait(2)
+//     I.fillField('email','panduputra. ilham@gmail.com')
+//     I.click('.text-header')
+//     I.see('Format email tidak valid.')
+//     I.fillField('email','panduputra.ilhamgmail.com')
+//     I.fillField('email','panduputra.ilhamgmail.co.id')
+//     I.click('.text-header')
+//     I.see('Format email tidak valid.')
+//     I.click('.text-header')
+//     I.see('Format email tidak valid.')
+//     I.fillField('email','panduputra.ilham@gmail.')
+//     I.click('.text-header')
+//     I.see('Format email tidak valid.')
+//     I.fillField('email','panduputra.ilham@ gmail.co.id')
+//     I.click('.text-header')
+//     I.see('Format email tidak valid.')
+//     I.fillField('email','panduputra.ilham@gmail.co.id')
+//     I.click('.text-header')
+//     I.dontSee('Format email tidak valid.')
+  
 // });
-
-// Scenario('Check require Wajib Isi', ({ I }) => {
+// Scenario('Check require password', ({ I }) => {
 //     I.amOnPage('https://www.cermati.com/gabung-v2?')
-//     I.click('.btn')
-//     I.see('Input ini wajib diisi.')
-//     I.wait(20)
-  
+//   let a = I.fillField('password','CERMATI')
+//     I.click('.text-header')
+//     I.see('Format email tidak valid.')
+    
 // });
-//test
-Scenario('Check require Email', ({ I }) => {
-    I.amOnPage('https://www.cermati.com/gabung-v2?')
-    I.fillField('email','panduputra. ilham@gmail.com')
-    I.click('.text-header')
-    I.see('Format email tidak valid.')
-    I.fillField('email','panduputra.ilhamgmail.com')
-    I.fillField('email','panduputra.ilhamgmail.co.id')
-    I.click('.text-header')
-    I.see('Format email tidak valid.')
-    I.click('.text-header')
-    I.see('Format email tidak valid.')
-    I.fillField('email','panduputra.ilham@gmail.')
-    I.click('.text-header')
-    I.see('Format email tidak valid.')
-    I.fillField('email','panduputra.ilham@ gmail.co.id')
-    I.click('.text-header')
-    I.see('Format email tidak valid.')
-    I.fillField('email','panduputra.ilham@gmail.co.id')
-    I.click('.text-header')
-    I.dontSee('Format email tidak valid.')
-  
-});
-Scenario('Check require password', ({ I }) => {
-    I.amOnPage('https://www.cermati.com/gabung-v2?')
-  let a = I.fillField('password','CERMATI')
-    I.click('.text-header')
-    I.see('Format email tidak valid.')
+// Scenario('Check require password 2', ({ I }) => {
+//     I.amOnPage('https://www.cermati.com/gabung-v2?')
+//   let a = I.fillField('password','CERMATI')
+//     I.click('.text-header')
+//     I.see('Format email tidak valid.')
     
-});
-Scenario('Check require password 2', ({ I }) => {
-    I.amOnPage('https://www.cermati.com/gabung-v2?')
-  let a = I.fillField('password','CERMATI')
-    I.click('.text-header')
-    I.see('Format email tidak valid.')
-    
-});
-Scenario('Check require Nama', ({ I }) => {
-    //Nama hanya dapat diisi dengan karakter alfabet, titik (.), petik ('), koma (,), strip (-) dan spasi.
-    I.amOnPage('https://www.cermati.com/gabung-v2?')
-  let a = I.fillField('password','CERMATI')
-    I.click('.text-header')
-    I.see('Format email tidak valid.')
-    //Kabupaten/Kota tidak tersedia di dalam pilihan yang ada.
-//nomor hanya dapat diisi angka dan panjang min 10
-});
+// });
+// Scenario('Check require Nama', ({ I }) => {
+//     //Nama hanya dapat diisi dengan karakter alfabet, titik (.), petik ('), koma (,), strip (-) dan spasi.
+//     I.amOnPage('https://www.cermati.com/gabung-v2?')
+//   let a = I.fillField('password','CERMATI')
+//     I.click('.text-header')
+//     I.see('Format email tidak valid.')
+//     //Kabupaten/Kota tidak tersedia di dalam pilihan yang ada.
+// //nomor hanya dapat diisi angka dan panjang min 10
+// });
 // Q1.
 // A.create Gist
 // 1.click +
