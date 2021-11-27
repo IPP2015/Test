@@ -1,7 +1,7 @@
 Feature('Create Account Cermati');
 Scenario('Create Account Sukses', ({ I }) => {
     I.amOnPage('https://www.cermati.com/gabung-v2?')
-    I.fillField('email', 'testing.2021.test.123@gmail.com')
+    I.fillField('email', 'testing.2021.test.1234@gmail.com')
     I.fillField('password', 'Cermati123');
     I.fillField('confirmPassword', 'Cermati123')
     I.fillField('firstName', 'Ilham')

@@ -1,0 +1,950 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638053710449' stop='1638053804766'>
+    <name>Create Account Cermati:</name>
+    <title>Create Account Cermati:</title>
+    <test-cases>
+        <test-case start='1638053711136' status='passed' stop='1638053723352'>
+            <name>Create Account Sukses</name>
+            <title>Create Account Sukses</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1638053711806' status='passed' stop='1638053714822'>
+                    <name>I am on page "https://www.cermati.com/gabung-v2?"</name>
+                    <title>I am on page "https://www.cermati.com/gabung-v2?"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "https://www.cermati.com/gabung-v2?"' source='4d380454-f0da-4657-84f2-54b069f87383-attachment.png' type='image/png' size='50113'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053714824' status='passed' stop='1638053716136'>
+                    <name>I fill field "email", "testing.2021.test.123@gmail.com"</name>
+                    <title>I fill field "email", "testing.2021.test.123@gmail.com"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "email", "testing.2021.test.123@gmail.com"' source='caa04405-facc-4ed9-9eec-7ce4d73da4d1-attachment.png' type='image/png' size='53584'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053716136' status='passed' stop='1638053716896'>
+                    <name>I fill field "password", "Cermati123"</name>
+                    <title>I fill field "password", "Cermati123"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "password", "Cermati123"' source='b18d83dd-6dc2-486c-aeb0-f8237203c82a-attachment.png' type='image/png' size='60781'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053716897' status='passed' stop='1638053717563'>
+                    <name>I fill field "confirmPassword", "Cermati123"</name>
+                    <title>I fill field "confirmPassword", "Cermati123"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "confirmPassword", "Cermati123"' source='149ea611-0240-4781-88df-8b24aa0bad95-attachment.png' type='image/png' size='53961'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053717563' status='passed' stop='1638053718196'>
+                    <name>I fill field "firstName", "Ilham"</name>
+                    <title>I fill field "firstName", "Ilham"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "firstName", "Ilham"' source='dfa487ce-820c-41b4-ae55-979f3466a30d-attachment.png' type='image/png' size='54609'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053718197' status='passed' stop='1638053718787'>
+                    <name>I fill field "lastName", "Putra"</name>
+                    <title>I fill field "lastName", "Putra"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "lastName", "Putra"' source='17586e00-fe5d-4448-b4dd-2f4a84036a54-attachment.png' type='image/png' size='54946'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053718788' status='passed' stop='1638053719513'>
+                    <name>I fill field "mobilePhone", "085777641438"</name>
+                    <title>I fill field "mobilePhone", "085777641438"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "mobilePhone", "085777641438"' source='8648ff2b-67c0-4614-acc4-4603440be77c-attachment.png' type='image/png' size='54898'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053719514' status='passed' stop='1638053720506'>
+                    <name>I fill field "residenceCity", "KOTA JAKARTA SELATAN"</name>
+                    <title>I fill field "residenceCity", "KOTA JAKARTA SELATAN"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "residenceCity", "KOTA JAKARTA SELATAN"' source='3d042de6-3a7e-4412-aedc-abdcaa255193-attachment.png' type='image/png' size='51820'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053720506' status='passed' stop='1638053720996'>
+                    <name>I click ".btn"</name>
+                    <title>I click ".btn"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".btn"' source='af900818-9dc6-4dd9-8184-e84704e131fe-attachment.png' type='image/png' size='58294'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053720996' status='passed' stop='1638053723351'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I wait 2' source='eadf64d1-8b98-4844-b5da-011994913d34-attachment.png' type='image/png' size='58294'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1638053723475' status='passed' stop='1638053728847'>
+            <name>Check require Wajib Isi</name>
+            <title>Check require Wajib Isi</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1638053724259' status='passed' stop='1638053727830'>
+                    <name>I am on page "https://www.cermati.com/gabung-v2?"</name>
+                    <title>I am on page "https://www.cermati.com/gabung-v2?"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "https://www.cermati.com/gabung-v2?"' source='8a945434-f269-4268-952f-4a8230f7c1ae-attachment.png' type='image/png' size='50090'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053727830' status='passed' stop='1638053728497'>
+                    <name>I click ".btn"</name>
+                    <title>I click ".btn"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".btn"' source='ad5478ee-428e-4942-84d1-3ee8736fe858-attachment.png' type='image/png' size='58780'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053728498' status='passed' stop='1638053728846'>
+                    <name>I see "Input ini wajib diisi."</name>
+                    <title>I see "Input ini wajib diisi."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Input ini wajib diisi."' source='34992bf2-4919-4238-94ae-7745afc18bed-attachment.png' type='image/png' size='58780'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1638053728970' status='passed' stop='1638053742327'>
+            <name>Check require Email</name>
+            <title>Check require Email</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1638053729676' status='passed' stop='1638053732566'>
+                    <name>I am on page "https://www.cermati.com/gabung-v2?"</name>
+                    <title>I am on page "https://www.cermati.com/gabung-v2?"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "https://www.cermati.com/gabung-v2?"' source='9a2ba3f9-139e-49a2-a2e9-5018c7547497-attachment.png' type='image/png' size='50113'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053732567' status='passed' stop='1638053733754'>
+                    <name>I fill field "email", "panduputra. ilham@gmail.com"</name>
+                    <title>I fill field "email", "panduputra. ilham@gmail.com"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "email", "panduputra. ilham@gmail.com"' source='40f7bd15-3477-49ea-8c12-35cb8841bc3a-attachment.png' type='image/png' size='52596'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053733754' status='passed' stop='1638053734176'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='7a8bf4a9-e289-483e-b599-801bcdd473f5-attachment.png' type='image/png' size='53022'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053734176' status='passed' stop='1638053734458'>
+                    <name>I see "Format email tidak valid."</name>
+                    <title>I see "Format email tidak valid."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Format email tidak valid."' source='f9acead3-da6d-4894-b0b9-55961bcf72d2-attachment.png' type='image/png' size='53022'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053734458' status='passed' stop='1638053735546'>
+                    <name>I fill field "email", "panduputra.ilhamgmail.com"</name>
+                    <title>I fill field "email", "panduputra.ilhamgmail.com"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "email", "panduputra.ilhamgmail.com"' source='27c2233e-b1e6-4c06-9168-9973556afbe1-attachment.png' type='image/png' size='53625'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053735546' status='passed' stop='1638053735995'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='4d424347-c713-473a-abcb-9a81a74030a3-attachment.png' type='image/png' size='52368'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053735996' status='passed' stop='1638053736271'>
+                    <name>I see "Format email tidak valid."</name>
+                    <title>I see "Format email tidak valid."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Format email tidak valid."' source='131f29ff-8d9c-4c7b-b5a2-91c7a3a0f388-attachment.png' type='image/png' size='52368'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053736272' status='passed' stop='1638053736674'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='3ca9cc5f-e3bf-4287-abb4-4b89c4ebc95f-attachment.png' type='image/png' size='52368'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053736674' status='passed' stop='1638053736972'>
+                    <name>I see "Format email tidak valid."</name>
+                    <title>I see "Format email tidak valid."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Format email tidak valid."' source='4d61d295-af04-42a9-b037-fcb427a00adf-attachment.png' type='image/png' size='52368'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053736972' status='passed' stop='1638053737944'>
+                    <name>I fill field "email", "panduputra.ilham@gmail."</name>
+                    <title>I fill field "email", "panduputra.ilham@gmail."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "email", "panduputra.ilham@gmail."' source='c463ef83-a0c0-410a-9d80-4f93d65b1dcc-attachment.png' type='image/png' size='53804'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053737945' status='passed' stop='1638053738379'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='613960ad-dd44-4642-8f1a-e59b8a75d909-attachment.png' type='image/png' size='52558'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053738380' status='passed' stop='1638053738631'>
+                    <name>I see "Format email tidak valid."</name>
+                    <title>I see "Format email tidak valid."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Format email tidak valid."' source='18174a12-9f3b-4745-b5b5-1ee2d0cae0db-attachment.png' type='image/png' size='52558'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053738631' status='passed' stop='1638053739749'>
+                    <name>I fill field "email", "panduputra.ilham@ gmail.co.id"</name>
+                    <title>I fill field "email", "panduputra.ilham@ gmail.co.id"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "email", "panduputra.ilham@ gmail.co.id"' source='5753b0c6-c686-4ff2-add8-3a714526984f-attachment.png' type='image/png' size='54307'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053739749' status='passed' stop='1638053740180'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='d45d40b2-37ae-412b-817a-59d0040b573b-attachment.png' type='image/png' size='53056'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053740180' status='passed' stop='1638053740440'>
+                    <name>I see "Format email tidak valid."</name>
+                    <title>I see "Format email tidak valid."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Format email tidak valid."' source='23dcfcb1-e635-40a7-b21f-db29bfa1b45d-attachment.png' type='image/png' size='53056'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053740440' status='passed' stop='1638053741591'>
+                    <name>I fill field "email", "panduputra.ilham@gmail.co.id"</name>
+                    <title>I fill field "email", "panduputra.ilham@gmail.co.id"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "email", "panduputra.ilham@gmail.co.id"' source='6d917069-523b-423e-98a5-9c045f8dca81-attachment.png' type='image/png' size='54239'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053741591' status='passed' stop='1638053742060'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='e289fdd8-22cc-48ea-af82-60a1e36535d2-attachment.png' type='image/png' size='51035'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053742060' status='passed' stop='1638053742326'>
+                    <name>I dont see "Format email tidak valid."</name>
+                    <title>I dont see "Format email tidak valid."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I dont see "Format email tidak valid."' source='7036fee1-b9e5-432e-8c1d-69a48c675472-attachment.png' type='image/png' size='51035'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1638053742441' status='passed' stop='1638053756703'>
+            <name>Check require password</name>
+            <title>Check require password</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1638053743165' status='passed' stop='1638053746357'>
+                    <name>I am on page "https://www.cermati.com/gabung-v2?"</name>
+                    <title>I am on page "https://www.cermati.com/gabung-v2?"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "https://www.cermati.com/gabung-v2?"' source='cc4607f3-5654-4694-9b3e-1b93eef05297-attachment.png' type='image/png' size='50090'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053746357' status='passed' stop='1638053747008'>
+                    <name>I fill field "password", "CERMATI"</name>
+                    <title>I fill field "password", "CERMATI"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "password", "CERMATI"' source='1bce05ad-bc6a-4b19-bc57-639959738290-attachment.png' type='image/png' size='58843'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053747008' status='passed' stop='1638053747433'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='75f377ef-3cba-45b4-9ce1-1ef1bacced99-attachment.png' type='image/png' size='57178'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053747433' status='passed' stop='1638053747719'>
+                    <name>I see "Kata Sandi harus memiliki panjang antara 8 - 50 karakter dan mengandung minimal 1 huruf besar, 1 huruf kecil, dan 1 angka."</name>
+                    <title>I see "Kata Sandi harus memiliki panjang antara 8 - 50 karakter dan mengandung minimal 1 huruf besar, 1 huruf kecil, dan 1 angka."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Kata Sandi harus memiliki panjang antara 8 - 50 karakter dan mengandung minimal 1 huruf besar, 1 huruf kecil, dan 1 angka."' source='f72eb61a-de20-4576-b631-ec02de80ed86-attachment.png' type='image/png' size='57178'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053747719' status='passed' stop='1638053748338'>
+                    <name>I fill field "password", "cermat1"</name>
+                    <title>I fill field "password", "cermat1"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "password", "cermat1"' source='c9460236-b2c9-4ce5-af71-8024eae82b36-attachment.png' type='image/png' size='58673'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053748339' status='passed' stop='1638053748873'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='0e48547b-5b66-4015-b1e4-cf6446a33f66-attachment.png' type='image/png' size='57178'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053748873' status='passed' stop='1638053749150'>
+                    <name>I see "Kata Sandi harus memiliki panjang antara 8 - 50 karakter dan mengandung minimal 1 huruf besar, 1 huruf kecil, dan 1 angka."</name>
+                    <title>I see "Kata Sandi harus memiliki panjang antara 8 - 50 karakter dan mengandung minimal 1 huruf besar, 1 huruf kecil, dan 1 angka."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Kata Sandi harus memiliki panjang antara 8 - 50 karakter dan mengandung minimal 1 huruf besar, 1 huruf kecil, dan 1 angka."' source='f357d4d9-a654-487a-84cf-d9ea94e0aa6d-attachment.png' type='image/png' size='57178'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053749150' status='passed' stop='1638053749779'>
+                    <name>I fill field "password", "Cermat2"</name>
+                    <title>I fill field "password", "Cermat2"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "password", "Cermat2"' source='0035bb94-5ce5-4207-8524-cf4601f397e0-attachment.png' type='image/png' size='58673'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053749779' status='passed' stop='1638053750206'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='f8de28be-2aad-4016-9426-48ad8f0104d1-attachment.png' type='image/png' size='57178'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053750206' status='passed' stop='1638053750508'>
+                    <name>I see "Kata Sandi harus memiliki panjang antara 8 - 50 karakter dan mengandung minimal 1 huruf besar, 1 huruf kecil, dan 1 angka."</name>
+                    <title>I see "Kata Sandi harus memiliki panjang antara 8 - 50 karakter dan mengandung minimal 1 huruf besar, 1 huruf kecil, dan 1 angka."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Kata Sandi harus memiliki panjang antara 8 - 50 karakter dan mengandung minimal 1 huruf besar, 1 huruf kecil, dan 1 angka."' source='40e73130-3aa6-47bc-b296-97e44047c5e5-attachment.png' type='image/png' size='57178'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053750509' status='passed' stop='1638053751154'>
+                    <name>I fill field "password", "CERmai3"</name>
+                    <title>I fill field "password", "CERmai3"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "password", "CERmai3"' source='db2b9733-f27e-4760-83c9-e45cd6b2883b-attachment.png' type='image/png' size='58673'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053751154' status='passed' stop='1638053751547'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='2a2b4c8e-f30a-4e9d-9cc4-125e96a86448-attachment.png' type='image/png' size='57178'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053751548' status='passed' stop='1638053751818'>
+                    <name>I see "Kata Sandi harus memiliki panjang antara 8 - 50 karakter dan mengandung minimal 1 huruf besar, 1 huruf kecil, dan 1 angka."</name>
+                    <title>I see "Kata Sandi harus memiliki panjang antara 8 - 50 karakter dan mengandung minimal 1 huruf besar, 1 huruf kecil, dan 1 angka."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Kata Sandi harus memiliki panjang antara 8 - 50 karakter dan mengandung minimal 1 huruf besar, 1 huruf kecil, dan 1 angka."' source='a08563fa-ef10-4a44-9efb-7809917b46dd-attachment.png' type='image/png' size='57178'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053751818' status='passed' stop='1638053752420'>
+                    <name>I fill field "password", "CERmati5"</name>
+                    <title>I fill field "password", "CERmati5"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "password", "CERmati5"' source='686549a1-a31a-44b8-883c-7f6195efb776-attachment.png' type='image/png' size='58681'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053752420' status='passed' stop='1638053752819'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='ff79c524-1305-48e1-9889-08750cd52911-attachment.png' type='image/png' size='50379'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053752819' status='passed' stop='1638053753320'>
+                    <name>I click ".fa-eye-slash"</name>
+                    <title>I click ".fa-eye-slash"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".fa-eye-slash"' source='c785f4cd-7b92-4ce1-afd6-76ed98440703-attachment.png' type='image/png' size='51224'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053753321' status='passed' stop='1638053753586'>
+                    <name>I dont see "Kata Sandi harus memiliki panjang antara 8 - 50 karakter dan mengandung minimal 1 huruf besar, 1 huruf kecil, dan 1 angka."</name>
+                    <title>I dont see "Kata Sandi harus memiliki panjang antara 8 - 50 karakter dan mengandung minimal 1 huruf besar, 1 huruf kecil, dan 1 angka."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I dont see "Kata Sandi harus memiliki panjang antara 8 - 50 karakter dan mengandung minimal 1 huruf besar, 1 huruf kecil, dan 1 angka."' source='3e27d647-29e9-4a76-9216-0be994ad3d0c-attachment.png' type='image/png' size='51224'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053753586' status='passed' stop='1638053754122'>
+                    <name>I fill field "confirmPassword", "CERmai5"</name>
+                    <title>I fill field "confirmPassword", "CERmai5"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "confirmPassword", "CERmai5"' source='2024c372-9a6b-430c-9490-b5d519b5e9f5-attachment.png' type='image/png' size='52677'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053754122' status='passed' stop='1638053754535'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='3a61c873-ef45-4414-a00e-6b51f5b77de8-attachment.png' type='image/png' size='54882'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053754535' status='passed' stop='1638053754811'>
+                    <name>I see "Kata Sandi tidak sama dengan Konfirmasi Kata Sandi"</name>
+                    <title>I see "Kata Sandi tidak sama dengan Konfirmasi Kata Sandi"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Kata Sandi tidak sama dengan Konfirmasi Kata Sandi"' source='2d2fb88b-e610-448c-95ed-a16766991fa1-attachment.png' type='image/png' size='54882'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053754811' status='passed' stop='1638053755465'>
+                    <name>I fill field "confirmPassword", "CERmati5"</name>
+                    <title>I fill field "confirmPassword", "CERmati5"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "confirmPassword", "CERmati5"' source='2682946f-fd53-4ad7-a7e4-1d9b3f6963b9-attachment.png' type='image/png' size='56062'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053755465' status='passed' stop='1638053755880'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='40d3c51a-5ac5-41e8-a9cb-fbb0383c72f6-attachment.png' type='image/png' size='51435'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053755880' status='passed' stop='1638053756419'>
+                    <name>I click ".fa-eye-slash"</name>
+                    <title>I click ".fa-eye-slash"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".fa-eye-slash"' source='c2d68b14-a0b4-4c19-9ffd-0997daa1d548-attachment.png' type='image/png' size='52219'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053756420' status='passed' stop='1638053756703'>
+                    <name>I dont see "Kata Sandi tidak sama dengan Konfirmasi Kata Sandi"</name>
+                    <title>I dont see "Kata Sandi tidak sama dengan Konfirmasi Kata Sandi"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I dont see "Kata Sandi tidak sama dengan Konfirmasi Kata Sandi"' source='054c78c4-7375-45ea-9fff-825effc23b2c-attachment.png' type='image/png' size='52219'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1638053756830' status='passed' stop='1638053769377'>
+            <name>Check require Nama</name>
+            <title>Check require Nama</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1638053757579' status='passed' stop='1638053760568'>
+                    <name>I am on page "https://www.cermati.com/gabung-v2?"</name>
+                    <title>I am on page "https://www.cermati.com/gabung-v2?"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "https://www.cermati.com/gabung-v2?"' source='0c4a9fd1-9fdf-47fe-b8cc-e6c3a6895de1-attachment.png' type='image/png' size='49895'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053760569' status='passed' stop='1638053761785'>
+                    <name>I fill field "email", "panduputra.ilham@gmail.co.id"</name>
+                    <title>I fill field "email", "panduputra.ilham@gmail.co.id"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "email", "panduputra.ilham@gmail.co.id"' source='a085d6d1-1f40-4bdf-ac12-1b3e56602668-attachment.png' type='image/png' size='52357'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053761786' status='passed' stop='1638053762470'>
+                    <name>I fill field "password", "cehDiide2"</name>
+                    <title>I fill field "password", "cehDiide2"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "password", "cehDiide2"' source='96f146ff-f4b9-4b22-aa2b-e7af91e9ee6b-attachment.png' type='image/png' size='59523'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053762470' status='passed' stop='1638053763019'>
+                    <name>I fill field "confirmPassword", "cehDiide2"</name>
+                    <title>I fill field "confirmPassword", "cehDiide2"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "confirmPassword", "cehDiide2"' source='71d2c84f-95a8-4b46-ad75-a223db62ca12-attachment.png' type='image/png' size='52752'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053763020' status='passed' stop='1638053763479'>
+                    <name>I click ".btn"</name>
+                    <title>I click ".btn"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".btn"' source='7d87d56d-f226-4908-817c-6aaf49bf146c-attachment.png' type='image/png' size='57056'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053763479' status='passed' stop='1638053763912'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='6bb8d7e2-b599-476d-9f65-02f063380699-attachment.png' type='image/png' size='57056'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053763912' status='passed' stop='1638053764220'>
+                    <name>I see "Input ini wajib diisi."</name>
+                    <title>I see "Input ini wajib diisi."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Input ini wajib diisi."' source='ca13cd08-5ebf-4bcc-8259-86505cf45c84-attachment.png' type='image/png' size='57056'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053764220' status='passed' stop='1638053764853'>
+                    <name>I fill field "firstName", "CERMATI1"</name>
+                    <title>I fill field "firstName", "CERMATI1"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "firstName", "CERMATI1"' source='dbb8f8de-4901-4b8d-8baa-9bc573d6914c-attachment.png' type='image/png' size='59341'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053764853' status='passed' stop='1638053765268'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='b523a3a9-50df-4df3-a706-01e5b4be15ae-attachment.png' type='image/png' size='62649'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053765268' status='passed' stop='1638053765534'>
+                    <name>I see "Nama hanya dapat diisi dengan karakter alfabet, titik (.), petik ('), koma (,), strip (-) dan spasi."</name>
+                    <title>I see "Nama hanya dapat diisi dengan karakter alfabet, titik (.), petik ('), koma (,), strip (-) dan spasi."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Nama hanya dapat diisi dengan karakter alfabet, titik (.), petik (&apos;), koma (,), strip (-) dan spasi."' source='5f523f3a-6bc4-41ad-9e15-1d4e5197e12c-attachment.png' type='image/png' size='62649'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053765534' status='passed' stop='1638053766082'>
+                    <name>I fill field "firstName", "C.', -"</name>
+                    <title>I fill field "firstName", "C.', -"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "firstName", "C.&apos;, -"' source='11cd97bc-d839-43d2-ba61-5a4fe66686fe-attachment.png' type='image/png' size='63215'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053766083' status='passed' stop='1638053766528'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='821b343d-2613-4646-8ce3-de6639b6cf24-attachment.png' type='image/png' size='56536'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053766528' status='passed' stop='1638053767076'>
+                    <name>I fill field "lastName", "CERMATI1"</name>
+                    <title>I fill field "lastName", "CERMATI1"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "lastName", "CERMATI1"' source='05782ac9-0197-48f0-8d2b-c9a08e63fc43-attachment.png' type='image/png' size='58572'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053767076' status='passed' stop='1638053767550'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='6d43c1aa-d3e2-4726-b1c2-6c481c8e1582-attachment.png' type='image/png' size='62343'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053767550' status='passed' stop='1638053767834'>
+                    <name>I see "Nama hanya dapat diisi dengan karakter alfabet, titik (.), petik ('), koma (,), strip (-) dan spasi."</name>
+                    <title>I see "Nama hanya dapat diisi dengan karakter alfabet, titik (.), petik ('), koma (,), strip (-) dan spasi."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Nama hanya dapat diisi dengan karakter alfabet, titik (.), petik (&apos;), koma (,), strip (-) dan spasi."' source='a1312f98-03cc-40d7-bd9a-8bb02cc613ea-attachment.png' type='image/png' size='62343'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053767835' status='passed' stop='1638053768398'>
+                    <name>I fill field "lastName", "C.', -"</name>
+                    <title>I fill field "lastName", "C.', -"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "lastName", "C.&apos;, -"' source='ac5f4eaf-4b7a-4fbd-81aa-f4c97ca6d9ae-attachment.png' type='image/png' size='62735'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053768398' status='passed' stop='1638053768812'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='4fa7c721-3193-4be8-b9eb-6133632125f1-attachment.png' type='image/png' size='55321'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053768812' status='passed' stop='1638053769088'>
+                    <name>I see "Input ini wajib diisi."</name>
+                    <title>I see "Input ini wajib diisi."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Input ini wajib diisi."' source='339ad431-9f50-4b64-9900-fd130d6ebd02-attachment.png' type='image/png' size='55321'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053769089' status='passed' stop='1638053769377'>
+                    <name>I dont see "Nama hanya dapat diisi dengan karakter alfabet, titik (.), petik ('), koma (,), strip (-) dan spasi."</name>
+                    <title>I dont see "Nama hanya dapat diisi dengan karakter alfabet, titik (.), petik ('), koma (,), strip (-) dan spasi."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I dont see "Nama hanya dapat diisi dengan karakter alfabet, titik (.), petik (&apos;), koma (,), strip (-) dan spasi."' source='586cdbd2-46f1-438f-be89-7966a17275b8-attachment.png' type='image/png' size='55321'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1638053769509' status='passed' stop='1638053797759'>
+            <name>Check No Telpon</name>
+            <title>Check No Telpon</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1638053769974' status='passed' stop='1638053772803'>
+                    <name>I am on page "https://www.cermati.com/gabung-v2?"</name>
+                    <title>I am on page "https://www.cermati.com/gabung-v2?"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "https://www.cermati.com/gabung-v2?"' source='e28e2f8e-9684-4b16-9038-26d98ba98f59-attachment.png' type='image/png' size='50113'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053772804' status='passed' stop='1638053774094'>
+                    <name>I fill field "email", "panduputra.ilham@gmail.co.id"</name>
+                    <title>I fill field "email", "panduputra.ilham@gmail.co.id"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "email", "panduputra.ilham@gmail.co.id"' source='78997d0c-7c72-4337-b611-e708964b58fe-attachment.png' type='image/png' size='52569'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053774095' status='passed' stop='1638053774791'>
+                    <name>I fill field "password", "cehDiide2"</name>
+                    <title>I fill field "password", "cehDiide2"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "password", "cehDiide2"' source='586dff90-b767-4708-8777-2eec04002183-attachment.png' type='image/png' size='59724'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053774792' status='passed' stop='1638053775483'>
+                    <name>I fill field "confirmPassword", "cehDiide2"</name>
+                    <title>I fill field "confirmPassword", "cehDiide2"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "confirmPassword", "cehDiide2"' source='4b04c42e-bd32-4705-ade2-32676448cfdb-attachment.png' type='image/png' size='52931'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053775483' status='passed' stop='1638053776001'>
+                    <name>I fill field "firstName", "Ilham"</name>
+                    <title>I fill field "firstName", "Ilham"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "firstName", "Ilham"' source='028332d5-7226-4790-b380-7dab07928c22-attachment.png' type='image/png' size='53552'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053776002' status='passed' stop='1638053776530'>
+                    <name>I fill field "lastName", "haha"</name>
+                    <title>I fill field "lastName", "haha"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "lastName", "haha"' source='1ad3479e-cbfb-4aae-9ac9-28c16fe403b9-attachment.png' type='image/png' size='54066'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053776530' status='passed' stop='1638053776980'>
+                    <name>I click ".btn"</name>
+                    <title>I click ".btn"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".btn"' source='7b8fad04-b919-4557-9939-a53155aa42d4-attachment.png' type='image/png' size='55481'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053776981' status='passed' stop='1638053777281'>
+                    <name>I see "Input ini wajib diisi."</name>
+                    <title>I see "Input ini wajib diisi."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Input ini wajib diisi."' source='f3abfb83-9535-47d4-852b-7f5a05141707-attachment.png' type='image/png' size='55481'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053777281' status='passed' stop='1638053777985'>
+                    <name>I fill field "mobilePhone", "080576576464"</name>
+                    <title>I fill field "mobilePhone", "080576576464"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "mobilePhone", "080576576464"' source='83163e80-9d38-4208-853c-72eaad2a5dec-attachment.png' type='image/png' size='57090'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053777985' status='passed' stop='1638053778409'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='932f5847-78b8-4eda-b51b-986626f99eb5-attachment.png' type='image/png' size='56512'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053778409' status='passed' stop='1638053778709'>
+                    <name>I see "Nomor telepon tidak valid."</name>
+                    <title>I see "Nomor telepon tidak valid."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Nomor telepon tidak valid."' source='835886db-59c7-4ecc-bf3e-637b6bb21c27-attachment.png' type='image/png' size='56512'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053778709' status='passed' stop='1638053779380'>
+                    <name>I fill field "mobilePhone", "080576579"</name>
+                    <title>I fill field "mobilePhone", "080576579"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "mobilePhone", "080576579"' source='db85aec2-2736-41c8-aa14-d3ceb958acb5-attachment.png' type='image/png' size='57189'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053779380' status='passed' stop='1638053779818'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='422f3f86-fc51-4357-86f4-ae14c2ba057b-attachment.png' type='image/png' size='56034'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053779819' status='passed' stop='1638053780110'>
+                    <name>I see "Nomor telepon tidak valid."</name>
+                    <title>I see "Nomor telepon tidak valid."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Nomor telepon tidak valid."' source='2b8e8f67-e046-4542-8e92-413857d59fd5-attachment.png' type='image/png' size='56034'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053780111' status='passed' stop='1638053780764'>
+                    <name>I fill field "mobilePhone", "0815576579"</name>
+                    <title>I fill field "mobilePhone", "0815576579"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "mobilePhone", "0815576579"' source='93e4b002-9e41-4c80-97eb-929dc48789fc-attachment.png' type='image/png' size='57088'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053780764' status='passed' stop='1638053781182'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='838acea0-9c3d-4465-8a62-b788854c7a72-attachment.png' type='image/png' size='53833'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053781182' status='passed' stop='1638053781449'>
+                    <name>I dont see "Nomor telepon tidak valid."</name>
+                    <title>I dont see "Nomor telepon tidak valid."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I dont see "Nomor telepon tidak valid."' source='087f42a1-c976-4a8d-9005-4ae4c83f4b10-attachment.png' type='image/png' size='53833'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053781449' status='passed' stop='1638053781986'>
+                    <name>I fill field "residenceCity", "KOTA"</name>
+                    <title>I fill field "residenceCity", "KOTA"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "residenceCity", "KOTA"' source='dc34257f-9293-4f19-b390-60b9414a0d89-attachment.png' type='image/png' size='51020'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053781986' status='passed' stop='1638053782397'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='6e7a9256-92c2-49d4-9911-7fa084c48972-attachment.png' type='image/png' size='53926'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053782397' status='passed' stop='1638053782880'>
+                    <name>I see "Kabupaten/Kota tidak tersedia di dalam pilihan yang ada."</name>
+                    <title>I see "Kabupaten/Kota tidak tersedia di dalam pilihan yang ada."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Kabupaten/Kota tidak tersedia di dalam pilihan yang ada."' source='035b5b91-d0eb-4d9d-b3c6-31ad941c7b87-attachment.png' type='image/png' size='55891'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053782881' status='passed' stop='1638053783299'>
+                    <name>I clear field "residenceCity"</name>
+                    <title>I clear field "residenceCity"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I clear field "residenceCity"' source='1124df34-ab5d-4d75-83da-f671be0a8573-attachment.png' type='image/png' size='56961'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053783299' status='passed' stop='1638053783723'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='f72f02d1-093c-4322-88f8-955cc61ba48d-attachment.png' type='image/png' size='55891'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053783723' status='passed' stop='1638053784545'>
+                    <name>I fill field "residenceCity", " JAKARTA UTARA"</name>
+                    <title>I fill field "residenceCity", " JAKARTA UTARA"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "residenceCity", " JAKARTA UTARA"' source='1bb5d299-d13b-40d6-a8e3-9fc0c5bcb4d3-attachment.png' type='image/png' size='57201'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053784545' status='passed' stop='1638053784985'>
+                    <name>I click ".text-header"</name>
+                    <title>I click ".text-header"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".text-header"' source='9f2faf8c-2589-472f-ad19-02754c8f595b-attachment.png' type='image/png' size='57230'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053784985' status='passed' stop='1638053785424'>
+                    <name>I dont see "Kabupaten/Kota tidak tersedia di dalam pilihan yang ada."</name>
+                    <title>I dont see "Kabupaten/Kota tidak tersedia di dalam pilihan yang ada."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I dont see "Kabupaten/Kota tidak tersedia di dalam pilihan yang ada."' source='658e531c-5c74-4ac4-804e-94071e0ae5a6-attachment.png' type='image/png' size='53769'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053785424' status='passed' stop='1638053785880'>
+                    <name>I click ".nui-checkout-confirmation-text"</name>
+                    <title>I click ".nui-checkout-confirmation-text"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".nui-checkout-confirmation-text"' source='faf35371-1bcb-4e44-a552-92f687f6233c-attachment.png' type='image/png' size='58749'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053785880' status='passed' stop='1638053786149'>
+                    <name>I see "Anda harus menyetujui Syarat dan Ketentuan serta Kebijakan Privasi Cermati.com"</name>
+                    <title>I see "Anda harus menyetujui Syarat dan Ketentuan serta Kebijakan Privasi Cermati.com"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Anda harus menyetujui Syarat dan Ketentuan serta Kebijakan Privasi Cermati.com"' source='6bf29aba-1ffb-4db0-9303-94abaa26e7db-attachment.png' type='image/png' size='58749'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053786149' status='passed' stop='1638053786629'>
+                    <name>I click ".nui-checkout-confirmation-text"</name>
+                    <title>I click ".nui-checkout-confirmation-text"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".nui-checkout-confirmation-text"' source='91c8fbe0-4646-494a-80c8-0e2247441261-attachment.png' type='image/png' size='53878'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053786629' status='passed' stop='1638053787101'>
+                    <name>I click ".btn"</name>
+                    <title>I click ".btn"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click ".btn"' source='74f9b528-fc3e-42a5-8d1f-f6266f8027c6-attachment.png' type='image/png' size='57269'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053787101' status='passed' stop='1638053787387'>
+                    <name>I see "Maaf, akun Anda sudah terdaftar."</name>
+                    <title>I see "Maaf, akun Anda sudah terdaftar."</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Maaf, akun Anda sudah terdaftar."' source='0d3f9c86-e6ca-4a51-b5b7-377287fd0770-attachment.png' type='image/png' size='57269'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053787387' status='passed' stop='1638053797758'>
+                    <name>I wait 10</name>
+                    <title>I wait 10</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I wait 10' source='c66ce78d-fe6f-4eda-8b5c-1fb2f6a1716a-attachment.png' type='image/png' size='57269'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1638053797873' status='passed' stop='1638053804593'>
+            <name>syarat dan kententuan</name>
+            <title>syarat dan kententuan</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1638053798500' status='passed' stop='1638053801339'>
+                    <name>I am on page "https://www.cermati.com/gabung-v2?"</name>
+                    <title>I am on page "https://www.cermati.com/gabung-v2?"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "https://www.cermati.com/gabung-v2?"' source='34c6ca6c-9933-4b06-bf74-4df8288dba52-attachment.png' type='image/png' size='50113'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053801339' status='passed' stop='1638053802080'>
+                    <name>I click "a[href='/pages/terms-and-conditions']"</name>
+                    <title>I click "a[href='/pages/terms-and-conditions']"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click "a[href=&apos;/pages/terms-and-conditions&apos;]"' source='2be59ce6-b466-4288-be85-0825acb0a411-attachment.png' type='image/png' size='50648'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053802080' status='passed' stop='1638053802389'>
+                    <name>I see "Syarat dan Ketentuan"</name>
+                    <title>I see "Syarat dan Ketentuan"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Syarat dan Ketentuan"' source='0b2ebdb7-78fd-4707-af9a-83bf4cc16835-attachment.png' type='image/png' size='50648'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053802389' status='passed' stop='1638053804318'>
+                    <name>I click "a[href='/pages/privacy-policy']"</name>
+                    <title>I click "a[href='/pages/privacy-policy']"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click "a[href=&apos;/pages/privacy-policy&apos;]"' source='ea1060ab-f172-44fd-9863-0e350b29c4af-attachment.png' type='image/png' size='50673'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638053804318' status='passed' stop='1638053804593'>
+                    <name>I see "Kebijakan Privasi"</name>
+                    <title>I see "Kebijakan Privasi"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Kebijakan Privasi"' source='7ea8cd68-f97f-4e9f-96b5-25adf302e245-attachment.png' type='image/png' size='50673'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
