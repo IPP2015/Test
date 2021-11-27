@@ -11,11 +11,11 @@ Feature('Create Account Cermati');
 // //     I.click('.btn')
 // //     I.wait(2)
 // // });
-// Scenario('Check require Wajib Isi', ({ I }) => {
-//     I.amOnPage('https://www.cermati.com/gabung-v2?')
-//     I.click('.btn')
-//     I.retry(7).see('Input ini wajib diisi.')
-// });
+Scenario('Check require Wajib Isi', ({ I }) => {
+    I.amOnPage('https://www.cermati.com/gabung-v2?')
+    I.click('.btn')
+    I.retry(7).see('Input ini wajib diisi.')
+});
 Scenario('Check require Email', ({ I }) => {
     I.amOnPage('https://www.cermati.com/gabung-v2?')
     I.fillField('email','panduputra. ilham@gmail.com')
@@ -108,12 +108,26 @@ Scenario('Check No Telpon', ({ I }) => {
     I.fillField('residenceCity', 'KOTA')
     I.click('.text-header')
     I.see('Kabupaten/Kota tidak tersedia di dalam pilihan yang ada.')
-    I.clearField('residenceCity','jalan')
+    I.clearField('residenceCity')
+    //I.click('residenceCity')
+    //I.retry(4).pressKey('Backspace');
     I.click('.text-header')
+    // I.wait(3)
     I.fillField('residenceCity', ' JAKARTA UTARA')
     I.click('.text-header')
     I.dontSee('Kabupaten/Kota tidak tersedia di dalam pilihan yang ada.')
-    I.checkOption('Saya menyetujui');
+    //I.checkOption('Saya menyetujui');
+    I.click('.nui-checkout-confirmation-text')
+    I.see('Anda harus menyetujui Syarat dan Ketentuan serta Kebijakan Privasi Cermati.com')
+    I.click('.nui-checkout-confirmation-text')
     I.click('.btn')
     I.see('Maaf, akun Anda sudah terdaftar.')
+    I.wait(10)
+})
+Scenario('syarat dan kententuan', ({I}) => {
+    I.amOnPage('https://www.cermati.com/gabung-v2?')
+    I.click("a[href='/pages/terms-and-conditions']")
+    I.see('Syarat dan Ketentuan')
+    I.click("a[href='/pages/privacy-policy']")
+    I.see('Kebijakan Privasi')
 })
