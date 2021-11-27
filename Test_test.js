@@ -1,24 +1,29 @@
 Feature('Create Account Cermati');
-Scenario('Create Account Sukses', ({ I }) => {
-    I.amOnPage('https://www.cermati.com/gabung-v2?')
-    I.fillField('email','panduputra.ilham@gmail.com')
-    I.fillField('password','Cermati123');
-    I.fillField('confirmPassword','Cermati123')
-    I.fillField('firstName','Ilham')
-    I.fillField('lastName','Putra')
-    I.fillField('mobilePhone','085777641438')
-    I.fillField('residenceCity','Jakarta Selatan')
-    I.click('.btn')
-    I.wait(2)
-});
+// Scenario('Create Account Sukses', ({ I }) => {
+//     I.amOnPage('https://www.cermati.com/gabung-v2?')
+//     I.fillField('email','panduputra.ilham@gmail.com')
+//     I.fillField('password','Cermati123');
+//     I.fillField('confirmPassword','Cermati123')
+//     I.fillField('firstName','Ilham')
+//     I.fillField('lastName','Putra')
+//     I.fillField('mobilePhone','085777641438')
+//     I.fillField('residenceCity','KOTA JAKARTA SELATAN')
+//     I.click('.btn')
+//     I.wait(2)
+// });
 
-Scenario('Check require Wajib Isi', ({ I }) => {
-    I.amOnPage('https://www.cermati.com/gabung-v2?')
-    I.click('.btn')
-    I.see('Input ini wajib diisi.')
-    I.wait(20)
-  
-});
+// Scenario('Check require Wajib Isi', ({ I }) => {
+//     I.amOnPage('https://www.cermati.com/gabung-v2?')
+//     var b = I.click('.btn')
+//     var a=0
+//     var c = I.see('Input ini wajib diisi.')
+//     if(b=true){
+//         a++
+//         c
+//         console.log(a);
+
+//     }
+// });
 //
 // Scenario('Check require Email', ({ I }) => {
 //     I.amOnPage('https://www.cermati.com/gabung-v2?')
@@ -40,68 +45,97 @@ Scenario('Check require Wajib Isi', ({ I }) => {
 //     I.fillField('email','panduputra.ilham@gmail.co.id')
 //     I.click('.text-header')
 //     I.dontSee('Format email tidak valid.')
-  
+
 // });
 // Scenario('Check require password', ({ I }) => {
+//     var a = 'CERmati1'
+//     var req2='Kata Sandi tidak sama dengan Konfirmasi Kata Sandi'
+//     var req1='Kata Sandi harus memiliki panjang antara 8 - 50 karakter dan mengandung minimal 1 huruf besar, 1 huruf kecil, dan 1 angka.'
 //     I.amOnPage('https://www.cermati.com/gabung-v2?')
-//   let a = I.fillField('password','CERMATI')
+//     I.fillField('email','panduputra.ilham@gmail.co.id')
 //     I.click('.text-header')
-//     I.see('Format email tidak valid.')
-    
-// });
-// Scenario('Check require password 2', ({ I }) => {
-//     I.amOnPage('https://www.cermati.com/gabung-v2?')
-//   let a = I.fillField('password','CERMATI')
+//     I.dontSee('Format email tidak valid.')
+//     I.fillField('password','CERMATI')
 //     I.click('.text-header')
-//     I.see('Format email tidak valid.')
-    
+//     I.see(req1)
+//     I.fillField('password','cermati')
+//     I.click('.text-header')
+//     I.see(req1)
+//     I.fillField('password','Cermati')
+//     I.click('.text-header')
+//     I.see(req1)
+//     I.fillField('password','CERmai1')
+//     I.click('.text-header')
+//     I.see(req1)
+//     I.fillField('password',a)
+//     I.click('.text-header')
+//     var b = I.dontSee(req1)
+//     b
+//     if(b = true){
+//     I.fillField('confirmPassword',a)
+//     I.click('.text-header')
+//     I.dontSee(req2)
+//     console.log('true');
+//     }else{
+//         I.fillField('confirmPassword','CERmai1')
+//     I.click('.text-header')
+//     I.see(req2)
+//     console.log('false');
+//     }
 // });
+
+
 // Scenario('Check require Nama', ({ I }) => {
-//     //Nama hanya dapat diisi dengan karakter alfabet, titik (.), petik ('), koma (,), strip (-) dan spasi.
+//     var req1='Input ini wajib diisi.'
+//     let req2="Nama hanya dapat diisi dengan karakter alfabet, titik (.), petik ('), koma (,), strip (-) dan spasi."
 //     I.amOnPage('https://www.cermati.com/gabung-v2?')
-//   let a = I.fillField('password','CERMATI')
+//     I.fillField('email','panduputra.ilham@gmail.co.id')
+//     I.fillField('password','cehDiide2')
+//     I.fillField('confirmPassword','cehDiide2')
+//     I.click('.btn')
 //     I.click('.text-header')
-//     I.see('Format email tidak valid.')
-//     //Kabupaten/Kota tidak tersedia di dalam pilihan yang ada.
-// //nomor hanya dapat diisi angka dan panjang min 10
+//     I.see(req1)
+//     I.fillField('firstName','CERMATI1')
+//     I.click('.text-header')
+//     I.see(req2)
+//     I.fillField('firstName',"C.', -")
+//     I.click('.text-header')
+//     I.fillField('lastName','CERMATI1')
+//     I.click('.text-header')
+//     I.see(req2)
+//     I.fillField('lastName',"C.', -")
+//     I.click('.text-header')
+//     I.dontSee(req1)
+//     I.dontSee(req2)
 // });
-// Q1.
-// A.create Gist
-// 1.click +
-// 2.fillfield Gist description (indodana)
-// 3.fillField extension (.js,)
-// 4.filltexbox 
-// 5.click arrow bottom choose public
-// 6.click button create
-// B.Edit Existing gist
-// 1.click photo pojok kanan
-// 2.pilih your gist
-// 3.pilih gist yang ingin diubah dan click
-// 4.click button edit
-// 5.lalu edit
-// 6.bila selesai click button update public gist
-// C.delete Existing gist
-// 1.click photo pojol kanan
-// 2.pilih your gist
-// 3.click gist yang dihapus
-// 4.lalu click button delete
-// 5. bila terdapat prompt'Are you positive you want to delete this Gist?' click yes
-// Q2.(input leaving change after calculate 1d 5h 30m not 24/1d(use input field hours is 24/1d and checkbox am/pm, 
-//     calculate wrong valet parking 1d 4h 0m=36.00(30.00))
-//     valet parking 
-//     2 d 5 h 0 m = 54.00//bugs
-//     short term 
-//     0 d 1 h 30 m= 3.00
-//     1 d 0 h 30 m = 25.00
-//     long-term g
-//     0 d 1 h 0 m = 2.00
-//     1 d 0 h 0 m = 12.00
-//     7 d 0 h 0 m= 72.00
-//     long-term s
-//     7 d 0 h 0 m = 60.00
-//     economy 
-//     7 d 0 h 0 m = 54.00
-//     design pada UI terdapat input jam dan boolan am / pm tpi pada input di isi 24 jam bukan 12 jam
+Scenario('Check No Telpon', ({ I }) => {
+    I.amOnPage('https://www.cermati.com/gabung-v2?')
+    I.fillField('email', 'panduputra.ilham@gmail.co.id')
+    I.fillField('password', 'cehDiide2')
+    I.fillField('confirmPassword', 'cehDiide2')
+    I.fillField('firstName', "C.', -")
+    I.fillField('lastName', "C.', -")
+    I.click('.btn')
+    I.see('Input ini wajib diisi.')
+    I.fillField('mobilePhone', '080576576464')
+    I.click('.text-header')
+    I.see('Nomor telepon tidak valid.')
+    I.fillField('mobilePhone', '080576579')
+    I.click('.text-header')
+    I.see('Nomor telepon tidak valid.')
+    I.fillField('mobilePhone', '0815576579')
+    I.click('.text-header')
+    I.dontSee('Nomor telepon tidak valid.')
+    I.fillField('residenceCity', 'jalan')
+    I.click('.text-header')
+    I.see('Kabupaten/Kota tidak tersedia di dalam pilihan yang ada.')
+    I.clearField('residenceCity','jalan')
+    I.click('.text-header')
+    I.fillField('residenceCity', 'KOTA JAKARTA UTARA')
+    I.click('.text-header')
+    I.dontSee('Kabupaten/Kota tidak tersedia di dalam pilihan yang ada.')
     
-//     Q3.
-//     1.25
+    I.checkOption('Saya menyetujui');
+    I.click('.btn')
+    I.see('Maaf, akun Anda sudah terdaftar.')
+})
