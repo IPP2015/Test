@@ -1,0 +1,88 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651729429001' stop='1651729485701'>
+    <name>Create Account Cermati:</name>
+    <title>Create Account Cermati:</title>
+    <test-cases>
+        <test-case start='1651729430873' status='passed' stop='1651729485578'>
+            <name>Create Account Sukses</name>
+            <title>Create Account Sukses</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1651729431868' status='passed' stop='1651729476840'>
+                    <name>I am on page "https://www.cermati.com/gabung-v2?"</name>
+                    <title>I am on page "https://www.cermati.com/gabung-v2?"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "https://www.cermati.com/gabung-v2?"' source='09f1c9dc-2c02-4993-88f5-dd83e7131b64-attachment.png' type='image/png' size='51967'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651729476841' status='passed' stop='1651729478307'>
+                    <name>I fill field "email", "testing.2021.test.12734@gmail.com"</name>
+                    <title>I fill field "email", "testing.2021.test.12734@gmail.com"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "email", "testing.2021.test.12734@gmail.com"' source='3c717be7-577c-4a42-be54-7a8152a9e34b-attachment.png' type='image/png' size='55562'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651729478309' status='passed' stop='1651729479047'>
+                    <name>I fill field "password", "Cermati123"</name>
+                    <title>I fill field "password", "Cermati123"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "password", "Cermati123"' source='e67c53bf-83e8-4950-84d6-56a7aa00b11d-attachment.png' type='image/png' size='62399'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651729479048' status='passed' stop='1651729479851'>
+                    <name>I fill field "confirmPassword", "Cermati123"</name>
+                    <title>I fill field "confirmPassword", "Cermati123"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "confirmPassword", "Cermati123"' source='f3c92b31-78be-4b75-9dd5-8c6b682389e6-attachment.png' type='image/png' size='55814'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651729479852' status='passed' stop='1651729480467'>
+                    <name>I fill field "firstName", "Ilham"</name>
+                    <title>I fill field "firstName", "Ilham"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "firstName", "Ilham"' source='1324682c-8e72-4e93-b852-ba3dc09c68fa-attachment.png' type='image/png' size='56269'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651729480467' status='passed' stop='1651729481271'>
+                    <name>I fill field "lastName", "Putra"</name>
+                    <title>I fill field "lastName", "Putra"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "lastName", "Putra"' source='b4a83e0f-b9fe-4878-a28c-5d8424213228-attachment.png' type='image/png' size='74722'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651729481271' status='passed' stop='1651729482075'>
+                    <name>I fill field "mobilePhone", "085777641438"</name>
+                    <title>I fill field "mobilePhone", "085777641438"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "mobilePhone", "085777641438"' source='c2c762ad-f459-42a1-aa35-2896fe22430f-attachment.png' type='image/png' size='74723'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651729482075' status='passed' stop='1651729483227'>
+                    <name>I fill field "residenceCity", "KOTA JAKARTA SELATAN"</name>
+                    <title>I fill field "residenceCity", "KOTA JAKARTA SELATAN"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "residenceCity", "KOTA JAKARTA SELATAN"' source='8922cd2a-ccba-4ec2-b05a-d5680cd47548-attachment.png' type='image/png' size='76110'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651729483228' status='passed' stop='1651729485577'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I wait 2' source='cd5237fb-980d-455d-acb4-fbcf22ba81fe-attachment.png' type='image/png' size='76110'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
