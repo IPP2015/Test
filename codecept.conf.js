@@ -1,18 +1,18 @@
-const { setHeadlessWhen } = require('@codeceptjs/configure');
+const { setHeadlessWhen, setWindowSize  } = require('@codeceptjs/configure');
 
 // turn on headless mode when running with HEADLESS=true environment variable
 // export HEADLESS=true && npx codeceptjs run
 setHeadlessWhen(process.env.HEADLESS);
+setWindowSize(1600, 1200);
 
 exports.config = {
   tests: './*_test.js',
   output: './output',
   helpers: {
     Playwright: {
-      url: 'http://localhost',
-      show: true,
-      browser: 'chromium',
-      windowSize: '1920x1080',
+      url: 'https://www.cermati.com/gabung-v2?',
+      show: flase,
+      browser: 'chromium'
     }
   },
   include: {
