@@ -14,5 +14,5 @@ jobs:
 
       - uses: microsoft/playwright-github-action@v1
 
-      - name: Install dependencies and run tests
-        run: npm install && npm test
+      - name: run CodeceptJS tests
+        run: npx codeceptjs run Test_test.js --plugin allure
