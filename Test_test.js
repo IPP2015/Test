@@ -12,7 +12,7 @@ Scenario('Create Account Sukses', ({ I }) => {
     I.fillField('mobilePhone', '08577764' + random)
     I.fillField('residenceCity', 'KOTA JAKARTA SELATAN')
     I.click('.btn')
-    I.wait(2)
+    I.wait(5)
     I.see('Selamat Datang di Cermati!')
 });
 Scenario('Check require Wajib Isi', ({ I }) => {
