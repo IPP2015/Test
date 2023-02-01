@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - 'releases/*'
+      - master
   workflow_dispatch:
   schedule:
     - cron: '40 0 * * *'
