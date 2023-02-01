@@ -11,7 +11,7 @@ exports.config = {
   helpers: {
     Playwright: {
       url: 'https://www.cermati.com/gabung-v2?',
-      show: flase,
+      show: false,
       browser: 'chromium'
     }
   },
