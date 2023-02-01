@@ -1,12 +1,10 @@
-name: "tests"
-on:
-  pull_request:
-  push:
-    branches:
-      - main
-      - 'releases/*'
-      - master
-
-defaults:
-  run:
-    shell: npx codeceptjs run Test_test.js
+name: End-to-end tests
+on: [push]
+jobs:
+  codeceptjs-run:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+      - uses: microsoft/playwright-github-action@v1
+      - name: run CodeceptJS tests
+        run: npx codeceptjs run
